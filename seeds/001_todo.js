@@ -20,5 +20,7 @@ exports.seed = function(knex, Promise) {
         priority: 5,
         date: new Date()
       }];
+
+      return knex('todo').insert(todos);
     });
 };
