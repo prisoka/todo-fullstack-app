@@ -21,6 +21,6 @@ exports.seed = function(knex, Promise) {
         date: new Date()
       }];
 
-      return knex('todo').insert(todos);
+      return knex('todo').insert(todos); // DONT forget to return!!!
     });
 };
