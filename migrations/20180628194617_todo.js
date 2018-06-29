@@ -1,5 +1,5 @@
 // id
-// title - text
+// title - text (NN)
 // priority - integer
 // description - text
 // done - boolean
