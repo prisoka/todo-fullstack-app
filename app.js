@@ -11,8 +11,8 @@ const todo = require('./routes/todo') // call todo database
 var app = express();
 
 // view engine setup
-// app.set('views', path.join(__dirname, 'views'));
-// app.set('view engine', 'hbs');
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'hbs');
 
 app.use(logger('dev'));
 app.use(express.json());
